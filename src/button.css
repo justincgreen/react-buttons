@@ -1,0 +1,10 @@
+/* Buttons */
+.button {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.button--primary {
+	background: rgb(157, 255, 201);
+	color: #000;
+}
