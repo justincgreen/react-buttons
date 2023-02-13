@@ -1,10 +1,33 @@
 /* Buttons */
 .button {
-	padding: 10px 20px;
 	cursor: pointer;
+	border: none;
+	font-size: 16px;
 }
 
 .button--primary {
-	background: rgb(157, 255, 201);
+	background: rgb(140, 160, 255);
 	color: #000;
+}
+
+.button--secondary {
+	background: rgb(0, 167, 46);
+	color: #fff;
+}
+
+.button--tertiary {
+	background: rgb(0, 181, 168);
+	color: #fff;
+}
+
+.button--small {
+	padding: 5px 10px;
+}
+
+.button--medium {
+	padding: 10px 20px;
+}
+
+.button--large {
+	padding: 20px 30px;
 }

@@ -2,6 +2,8 @@
 import "../button.css";
 
 const Button = (props) => {
+	const { label } = props;
+	
 	const getButtonClasses = () => {
 		const { type, size } = props;
 		
@@ -15,11 +17,13 @@ const Button = (props) => {
 	}	
 	
 	return (
-		<button
-			className={getButtonClasses()}
-		>
-			Button
-		</button>
+		<div>
+			<button
+				className={getButtonClasses()}
+			>
+				{label}
+			</button>
+		</div>
 	)
 }
 

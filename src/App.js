@@ -8,6 +8,19 @@ function App() {
       <Button
         type={ButtonTypes.PRIMARY}
         size={ButtonSizes.SMALL}
+        label={'Button Primary'}
+      />
+      
+      <Button
+        type={ButtonTypes.SECONDARY}
+        size={ButtonSizes.MEDIUM}
+        label={'Button Secondary'}
+      />
+      
+      <Button
+        type={ButtonTypes.TERTIARY}
+        size={ButtonSizes.LARGE}
+        label={'Button Tertiary'}
       />
     </div>
   );
